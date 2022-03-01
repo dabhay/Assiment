@@ -6,10 +6,10 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import com.bank.model.User;
-import com.bank.model.UserPrimarykey;
+import com.bank.model.Userprimarykey;
 
 @Repository
-	public interface UserRepository extends JpaRepository<User, UserPrimarykey> {
+	public interface UserRepository extends JpaRepository<User, Userprimarykey> {
 
 		public User findByuserprimarykeyUserIdAndPassword(String userId, String password);
 
