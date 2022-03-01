@@ -1,10 +1,6 @@
 package com.bank.request;
 
-
-
-
 public class SignupRequest {
-
 	private String userId;
 
 	private int accountNo;
@@ -48,4 +44,5 @@ public class SignupRequest {
 	}
 
 	
+
 }
