@@ -1,4 +1,4 @@
-package com.bank.Controller;
+package com.bank.controller;
 
 import java.util.ArrayList;
 import java.util.List;
